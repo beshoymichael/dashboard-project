@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmouatez Billah Benariba" />
+    <meta name="description" content="Elzero Dashboard : Dashboard page | This is the Solution to Elzero Dashboard Challenge By: Elmouatez Billah Benariba" />
+
+    <!-- main style css -->
+    <link rel="stylesheet" href="master.css" />
+    <!-- start non critical css -->
+    <!-- Master CSS File -->
+    <link
+    rel="preload"
+    href="css/non-critical-css.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+  <noscript><link rel="stylesheet" href="css/non-critical-css.css" /></noscript>
+    <!-- FontAwesome Library -->
+    <link
+    rel="preload"
+    href="css/all.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+    <noscript><link rel="stylesheet" href="css/all.css" /></noscript>
+    <!-- framework & Elements css file -->
+    <link rel="stylesheet" href="css/framework-elements.css">
+    <!-- <link rel="stylesheet" href="css/framework-elements.css">
+    <link
+    rel="preload"
+    href="css/framework-elements.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+    <noscript><link rel="stylesheet" href="css/framework-elements.css" /></noscript> -->
+    <!-- end non critical css -->
+    <!-- openGraph tags -->
+    <meta
+      property="og:url"
+      content="https://mouatezbenariba.github.io/template-html-css-04/index.html"
+    />
+    <meta property="og:type" content="Dashboard" />
+    <meta
+      property="og:title"
+      content="Elzero Dashboard | HTML CSS Only | Elmouatez Billah Benariba"
+    />
+    <meta
+      property="og:description"
+      content="This is the Solution to Elzero Dashboard Challenge By: Elmouatez Billah Benariba"
+    />
+    <meta property="og:image" content="" />
+    <!-- Google Validation -->
+    <meta name="google-site-verification" content="CVE6WqfytS1I3j_MJUG3wZ9fzuDJheBNQm3pwR2dmLc" />
+    <title>Elzero Dashboard : Dashboard - Elzero Web School - Elmouatez Billah Benariba</title>
+  </head>
+  <body class="ft-sz-0-7">
+    <div class="container dp-fx">
+      <aside>
+        <h2 class="special-underline-1">Elzero</h2>
+        <nav>
+          <ul class="nav-links">
+            <li style="background-color: var(--color-one)">
+              <a href="index.html" class="icon dashboard"><span class="hide">Dashboard</span></a>
+            </li>
+            <li><a href="html/settings.html" class="icon settings"><span class="hide">Settings</span> </a></li>
+            <li><a href="html/profile.html" class="icon profile"><span class="hide">Profile</span> </a></li>
+            <li><a href="html/projects.html" class="icon projects"><span class="hide">Projects</span> </a></li>
+            <li><a href="html/courses.html" class="icon courses"><span class="hide">Courses</span> </a></li>
+            <li><a href="html/friends.html" class="icon friends"><span class="hide">Friends</span> </a></li>
+            <li><a href="html/files.html" class="icon files"><span class="hide">Files</span> </a></li>
+            <li><a href="html/plans.html" class="icon plans"><span class="hide">Plans</span> </a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <header>
+          <div class="search icon magnifying-glass ft-sz-0-7-bf">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search Keyword"
+              class="ft-sz-0-65 remove-outline"
+            />
+          </div>
+          <div class="status pointer-effect">
+            <i class="fa-regular fa-bell notif-true ft-sz-1"></i>
+            <div class="image-user">
+              <img src="images/user.webp" alt="user image" width="22" height="22" />
+            </div>
+          </div>
+        </header>
+        <section class="main-content">
+          <h1 class="special-underline-2">Dashboard</h1>
+          <div class="content">
+            <div class="welcome">
+              <div class="title">
+                <h2>Welcome</h2>
+                <p>Elzero</p>
+              </div>
+              <div class="banner">
+                <img
+                  src="images/team-talk.webp"
+                  alt="A developers team doing a talk : a man and a woman sitting on chairs and two men standing"
+                width="224"
+                height="122"
+                fetchpriority="low"/>
+              </div>
+              <div class="description">
+                <div class="user">
+                  <img src="images/user.webp" alt="User Image" width="41" height="41" />
+                </div>
+                <div class="info">
+                  <div class="name">
+                    <span class="dp-bc ft-wg-600 ft-sz-0-85">Osama Elzero</span>
+                    <span class="dp-bc ft-sz-0-75">Developer</span>
+                  </div>
+                  <div class="project">
+                    <span class="dp-bc ft-wg-600 ft-sz-0-85">80</span>
+                    <span class="dp-bc ft-sz-0-75">Projects</span>
+                  </div>
+                  <div class="salary">
+                    <span class="dp-bc ft-wg-600 ft-sz-0-85">$5800</span>
+                    <span class="dp-bc ft-sz-0-75">Earned</span>
+                  </div>
+                </div>
+                <button class="def-btn-st blue-bg  ft-sz-0-7">Profile</button>
+              </div>
+            </div>
+            <div class="draft">
+              <div class="title">
+                <h2>Quick Draft</h2>
+                <p>Write a Draft for your Idea</p>
+              </div>
+              <div class="thoughts">
+                <input
+                  type="text"
+                  name="title"
+                  id="title"
+                  placeholder="Title"
+                  class="remove-outline"
+                />
+                <textarea
+                  name="thought"
+                  id="thought"
+                  placeholder="Your Thoughts"
+                  class="remove-outline"
+                ></textarea>
+                <div><button class="def-btn-st  blue-bg">Save</button></div>
+              </div>
+            </div>
+            <div class="y-target">
+              <div class="title">
+                <h2>Yearly Target</h2>
+                <p>Targets of the Year with Progress</p>
+              </div>
+              <div class="y-target-content">
+                <div class="y-target-content-piece">
+                  <i class="fa-solid fa-dollar-sign blue-cl-bf blue-bg-af ft-sz-0-9"></i>
+                  <div class="y-target-content-info">
+                    <span class="dp-bc blue-bg-af blue-bg-bf ft-sz-0-75">Money</span>
+                    <span
+                      class="dp-bc blue-bg-bf ft-wg-700 ft-sz-0-8 ft-sz-0-6-bf ft-wg-400-bf"
+                      >$20.000</span
+                    >
+                  </div>
+                </div>
+                <div class="y-target-content-piece">
+                  <i class="fa-solid fa-code orange-cl-bf orange-bg-af ft-sz-0-9"></i>
+                  <div class="y-target-content-info">
+                    <span class="dp-bc orange-bg-af orange-bg-bf ft-sz-0-75"
+                      >Projects</span
+                    >
+                    <span
+                      class="dp-bc orange-bg-bf ft-wg-700 ft-sz-0-8 ft-sz-0-6-bf ft-wg-400-bf"
+                      >24</span
+                    >
+                  </div>
+                </div>
+                <div class="y-target-content-piece">
+                  <i class="fa-regular fa-user green-cl-bf green-bg-af ft-sz-0-9"></i>
+                  <div class="y-target-content-info">
+                    <span class="dp-bc green-bg-af green-bg-bf ft-sz-0-75">Money</span>
+                    <span
+                      class="dp-bc green-bg-bf ft-wg-700 ft-sz-0-8 ft-sz-0-6-bf ft-wg-400-bf"
+                      >12</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tasks-stats">
+              <div class="title">
+                <h2>Tickets Statistics</h2>
+                <p>Everything about Support Tickets</p>
+              </div>
+              <div class="tasks-stats-content">
+                <div class="tasks-stats-card">
+                  <i class="fa-regular fa-rectangle-list orange-cl ft-sz-1-1"></i>
+                  <span class="stat ft-wg-700 ft-sz-1-2">2500</span>
+                  <span class="stat-info ft-wg-600">Total</span>
+                </div>
+                <div class="tasks-stats-card">
+                  <i class="fa-solid fa-spinner blue-cl ft-sz-1-1"></i>
+                  <span class="stat ft-wg-700 ft-sz-1-2">500</span>
+                  <span class="stat-info ft-wg-600">Pending</span>
+                </div>
+                <div class="tasks-stats-card">
+                  <i class="fa-regular fa-circle-check green-cl ft-sz-1-1"></i>
+                  <span class="stat ft-wg-700 ft-sz-1-2">1900</span>
+                  <span class="stat-info ft-wg-600">Closed</span>
+                </div>
+                <div class="tasks-stats-card">
+                  <i class="fa-regular fa-rectangle-xmark red-cl ft-sz-1-1"></i>
+                  <span class="stat ft-wg-700 ft-sz-1-2">100</span>
+                  <span class="stat-info ft-wg-600">Deleted</span>
+                </div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="title">
+                <h2>Latest News</h2>
+              </div>
+              <div class="news-content">
+                <div class="news-content-piece">
+                  <div class="news-image">
+                    <img src="images/news-01.webp" alt="Create Sass Section image" width="71" height="40"/>
+                  </div>
+                  <div class="news-info">
+                    <h3>Created SASS Section</h3>
+                    <p class="ft-wg-600">New SASS Examples & Tutorials</p>
+                  </div>
+                  <span class="news-time grey-2-bg box-rec-small">3 Days Ago</span>
+                </div>
+                <div class="news-content-piece">
+                  <div class="news-image">
+                    <img src="images/news-02.webp" alt="A web Design" width="71" height="40"/>
+                  </div>
+                  <div class="news-info">
+                    <h3>Changed The Design</h3>
+                    <p class="ft-wg-600">A Brand New Website Design</p>
+                  </div>
+                  <span class="news-time grey-2-bg box-rec-small">5 Days Ago</span>
+                </div>
+                <div class="news-content-piece">
+                  <div class="news-image">
+                    <img src="images/news-03.webp" alt="A Developers Team" width="71" height="40"/>
+                  </div>
+                  <div class="news-info">
+                    <h3>Team Increased</h3>
+                    <p class="ft-wg-600">3 Developers Joined The Team</p>
+                  </div>
+                  <span class="news-time grey-2-bg box-rec-small">7 Days Ago</span>
+                </div>
+                <div class="news-content-piece">
+                  <div class="news-image">
+                    <img src="images/news-04.webp" alt="Payment Gateway Service" width="71" height="40"/>
+                  </div>
+                  <div class="news-info">
+                    <h3>Added Payment Gateway</h3>
+                    <p class="ft-wg-600">Many New Payment Gateways Added</p>
+                  </div>
+                  <span class="news-time grey-2-bg box-rec-small">9 Days Ago</span>
+                </div>
+              </div>
+            </div>
+            <div class="l-tasks">
+              <div class="title">
+                <h2>Latest Tasks</h2>
+              </div>
+              <div class="l-tasks-content">
+                <div class="task">
+                  <div class="task-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Record One New Video</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
+                      Record Python Create Exe Project
+                    </p>
+                  </div>
+                  <div class="action pointer-effect">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </div>
+                </div>
+                <div class="task">
+                  <div class="task-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Write Article</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
+                      Write Low Level vs High Level Languages
+                    </p>
+                  </div>
+                  <div class="action pointer-effect">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </div>
+                </div>
+                <div class="task">
+                  <div class="task-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Finish Project</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
+                      Publish Academy Programming Project
+                    </p>
+                  </div>
+                  <div class="action pointer-effect">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </div>
+                </div>
+                <div class="task">
+                  <div class="task-desc">
+                    <h3 class="grey-5-cl txt-deco-ln-thr ft-sz-0-7 margin-0">
+                      Attend The Meeting
+                    </h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl txt-deco-ln-thr margin-0">
+                      Attend The Project Business Analysis Meeting
+                    </p>
+                  </div>
+                  <div class="action">
+                    <i class="fa-regular fa-trash-can grey-5-cl"></i>
+                  </div>
+                </div>
+                <div class="task">
+                  <div class="task-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Finish Lesson</h3>
+                    <p class="ft-wg-600 ft-sz-0-8 grey-5-cl margin-0">
+                      Finish Teaching Flex Box
+                    </p>
+                  </div>
+                  <div class="action pointer-effect">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top-search">
+              <div class="title">
+                <h2>Top Search Items</h2>
+              </div>
+              <div class="top-search-content remove-lt-style">
+                <ul class="remove-lt-style">
+                  <li class="top-search-title">
+                    <span class="ft-wg-600 ft-sz-0-85">Keyword</span
+                    ><span class="ft-wg-600 ft-sz-0-85">Search Count</span>
+                  </li>
+                  <li>
+                    <span class="ft-wg-60 ft-sz-0-8">Programming</span
+                    ><span class="box-rec-small grey-2-bg">220</span>
+                  </li>
+                  <li>
+                    <span class="ft-wg-60 ft-sz-0-8">JavaScript</span
+                    ><span class="box-rec-small grey-2-bg">180</span>
+                  </li>
+                  <li>
+                    <span class="ft-wg-60 ft-sz-0-8">PHP</span
+                    ><span class="box-rec-small grey-2-bg">160</span>
+                  </li>
+                  <li>
+                    <span class="ft-wg-60 ft-sz-0-8">Code</span
+                    ><span class="box-rec-small grey-2-bg">145</span>
+                  </li>
+                  <li>
+                    <span class="ft-wg-60 ft-sz-0-8">Design</span
+                    ><span class="box-rec-small grey-2-bg">110</span>
+                  </li>
+                  <li>
+                    <span class="ft-wg-60 ft-sz-0-8">Logic</span
+                    ><span class="box-rec-small grey-2-bg">95</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="l-upload">
+              <div class="title">
+                <h2>Latest Uploads</h2>
+              </div>
+              <ul class="l-upload-content remove-lt-style">
+                <li class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="l-upload-file dp-fx fx-js-bt fx-al-ct">
+                    <div class="file-image dp-fx">
+                      <img src="images/pdf.webp" alt="pdf file icon" width="29" height="29"/>
+                    </div>
+                    <div class="file-info">
+                      <span class="file-name dp-bc ft-sz-0-8 ft-wg-600"
+                        >My-PDF-File.pdf</span
+                      >
+                      <span class="author dp-bc ft-sz-0-75 ft-wg-600 grey-5-cl"
+                        >Elzero</span
+                      >
+                    </div>
+                  </div>
+                  <span class="box-rec-small grey-2-bg">2.9mb</span>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="l-upload-file dp-fx fx-js-bt fx-al-ct">
+                    <div class="file-image dp-fx">
+                      <img src="images/avi.webp" alt="avi file icon" width="29" height="29"/>
+                    </div>
+                    <div class="file-info">
+                      <span class="file-name dp-bc ft-sz-0-8 ft-wg-600"
+                        >My-Video-File.avi</span
+                      >
+                      <span class="author dp-bc ft-sz-0-75 ft-wg-600 grey-5-cl"
+                        >Admin</span
+                      >
+                    </div>
+                  </div>
+                  <span class="box-rec-small grey-2-bg">4.9mb</span>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="l-upload-file dp-fx fx-js-bt fx-al-ct">
+                    <div class="file-image dp-fx">
+                      <img src="images/psd.webp" alt="psd file icon" width="29" height="29"/>
+                    </div>
+                    <div class="file-info">
+                      <span class="file-name dp-bc ft-sz-0-8 ft-wg-600"
+                        >My-PSD-File.psd</span
+                      >
+                      <span class="author dp-bc ft-sz-0-75 ft-wg-600 grey-5-cl"
+                        >Osama</span
+                      >
+                    </div>
+                  </div>
+                  <span class="box-rec-small grey-2-bg">4.5mb</span>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="l-upload-file dp-fx fx-js-bt fx-al-ct">
+                    <div class="file-image dp-fx">
+                      <img src="images/zip.webp" alt="zip file icon" width="29" height="29"/>
+                    </div>
+                    <div class="file-info">
+                      <span class="file-name dp-bc ft-sz-0-8 ft-wg-600"
+                        >My-Zip-File.zip</span
+                      >
+                      <span class="author dp-bc ft-sz-0-75 ft-wg-600 grey-5-cl"
+                        >User</span
+                      >
+                    </div>
+                  </div>
+                  <span class="box-rec-small grey-2-bg">8.9mb</span>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="l-upload-file dp-fx fx-js-bt fx-al-ct">
+                    <div class="file-image dp-fx">
+                      <img src="images/dll.webp" alt="dll file icon" width="29" height="29"/>
+                    </div>
+                    <div class="file-info">
+                      <span class="file-name dp-bc ft-sz-0-8 ft-wg-600"
+                        >My-DLL-File.dll</span
+                      >
+                      <span class="author dp-bc ft-sz-0-75 ft-wg-600 grey-5-cl"
+                        >Admin</span
+                      >
+                    </div>
+                  </div>
+                  <span class="box-rec-small grey-2-bg">4.9mb</span>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="l-upload-file dp-fx fx-js-bt fx-al-ct">
+                    <div class="file-image">
+                      <img src="images/eps.webp" alt="pdf file icon" width="29" height="29"/>
+                    </div>
+                    <div class="file-info">
+                      <span class="file-name dp-bc ft-sz-0-8 ft-wg-600"
+                        >My-EPS-File.eps</span
+                      >
+                      <span class="author dp-bc ft-sz-0-75 ft-wg-600 grey-5-cl"
+                        >Designer</span
+                      >
+                    </div>
+                  </div>
+                  <span class="box-rec-small grey-2-bg">8.9mb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="c-project ps-rl">
+              <div class="title">
+                <h2>Current Project Progress</h2>
+              </div>
+              <ul
+                class="c-project-content remove-lt-style ft-sz-0-8 ft-wg-600 blue-bg-bf"
+              >
+                <li
+                  class="white-bg-bf blue-bg-af project-progress-circle-bf project-progress-circle-af"
+                >
+                  Got The Project
+                </li>
+                <li
+                  class="white-bg-bf blue-bg-af project-progress-circle-bf project-progress-circle-af"
+                >
+                  Started The Project
+                </li>
+                <li
+                  class="white-bg-bf blue-bg-af project-progress-circle-bf project-progress-circle-af"
+                >
+                  The Project About To Finish
+                </li>
+                <li
+                  class="white-bg-bf blue-bg-af project-progress-circle-bf project-progress-circle-af current-project"
+                >
+                  Test The Project
+                </li>
+                <li class="white-bg-bf blue-bg-af project-progress-circle-bf">
+                  Finish The Project & Get Money
+                </li>
+              </ul>
+              <div class="c-project-image">
+                <img src="images/plane.webp" alt="" width="112" height="112"/>
+              </div>
+            </div>
+            <div class="reminders">
+              <div class="title">
+                <h2>Reminders</h2>
+              </div>
+              <ul class="reminders-content remove-lt-style">
+                <li class="blue-bg-bf blue-bg-af">
+                  <h3 class="ft-sz-0-75">Check My Tasks List</h3>
+                  <span class="ft-sz-0-65 grey-5-cl">28/09/2022 - 12:00am</span>
+                </li>
+                <li class="green-bg-bf green-bg-af">
+                  <h3 class="ft-sz-0-75">Check My Projects</h3>
+                  <span class="ft-sz-0-65 grey-5-cl">26/10/2022 - 12:00am</span>
+                </li>
+                <li class="orange-bg-bf orange-bg-af">
+                  <h3 class="ft-sz-0-75">Call All My Clients</h3>
+                  <span class="ft-sz-0-65 grey-5-cl">05/11/2022 - 12:00am</span>
+                </li>
+                <li class="red-bg-bf red-bg-af">
+                  <h3 class="ft-sz-0-75">Finish The Development Workshop</h3>
+                  <span class="ft-sz-0-65 grey-5-cl">20/12/2022 - 12:00am</span>
+                </li>
+              </ul>
+            </div>
+            <div class="l-posts">
+              <div class="title">
+                <h2>Latest Post</h2>
+              </div>
+              <div class="l-posts-content">
+                <div class="l-posts-author dp-fx fx-al-ct">
+                  <div class="l-posts-author-image dp-fx">
+                    <img src="images/user.webp" alt="user icon" width="38" height="38"/>
+                  </div>
+                  <div class="l-posts-author-info">
+                    <span class="dp-bc ft-sz-0-85">Osama Elzero</span>
+                    <span class="dp-bc ft-sz-0-8 grey-5-cl">About 3 Hours Ago</span>
+                  </div>
+                </div>
+                <div class="post-content ft-sz-0-8 ft-wg-600">
+                  You can fool all of the people some of the time, and some of the people
+                  all of the time, but you can't fool all of the people all of the time.
+                </div>
+                <div class="l-posts-reaction ft-sz-0-8 dp-fx fx-js-bt grey-5-cl">
+                  <div class="hearts pointer-effect">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>1.8K</span>
+                  </div>
+                  <div class="comments pointer-effect">
+                    <i class="fa-regular fa-comments"></i>
+                    <span>550</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="social-stat">
+              <div class="title">
+                <h2>Social Media Stats</h2>
+              </div>
+              <ul class="social-stat-content remove-lt-style">
+                <li class="dp-fx fx-js-bt fx-al-ct tw-bg-bf">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-twitter ft-sz-1-4 tw-bg white-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-85 ft-wg-600 tw-cl">90K Followers</span>
+                  </div>
+                  <span
+                    class="social-stat-action pointer-effect ps-rl box-rec-small tw-bg  ft-wg-600"
+                    >Follow</span
+                  >
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct fb-bg-bf">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-facebook-f ft-sz-1-4 fb-bg white-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-85 ft-wg-600 fb-cl">2M Like</span>
+                  </div>
+                  <span
+                    class="social-stat-action pointer-effect ps-rl box-rec-small fb-bg  ft-wg-600"
+                    >Like</span
+                  >
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct yt-bg-bf">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-youtube ft-sz-1-4 yt-bg white-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-85 ft-wg-600 yt-cl-ac">1M Subs</span>
+                  </div>
+                  <span
+                    class="social-stat-action pointer-effect ps-rl box-rec-small yt-bg  ft-wg-600"
+                    >Subscribe</span
+                  >
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct lk-bg-bf">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-linkedin ft-sz-1-4 lk-bg white-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-85 ft-wg-600 lk-cl">70K Followers</span>
+                  </div>
+                  <span
+                    class="social-stat-action pointer-effect ps-rl box-rec-small lk-bg  ft-wg-600"
+                    >Follow</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="my-projects">
+              <div class="title">
+                <h2>Projects</h2>
+              </div>
+              <div class="my-projects-content">
+                <table class="ft-sz-0-8" width="100%" style="" cellspacing="0" border="1">
+                  <thead class="grey-2-bg">
+                    <tr>
+                      <th>Name</th>
+                      <th>Finish Date</th>
+                      <th>Client</th>
+                      <th>Price</th>
+                      <th>Team</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ministry Wikipedia</td>
+                      <td>10 May 2022</td>
+                      <td>Ministry</td>
+                      <td>$3500</td>
+                      <td class="projects-team">
+                        <div class="projects-team-images">
+                          <img width="21" height="26" src="images/g1010.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1140.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1310.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1384.webp" alt="team member" />
+                        </div>
+                      </td>
+                      <td>
+                        <span class="box-rec-small orange-bg  ft-wg-600"
+                          >Pending</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Elzero Shop</td>
+                      <td>12 Oct 2021</td>
+                      <td>Elzero Company</td>
+                      <td>$1500</td>
+                      <td class="projects-team">
+                        <div class="projects-team-images">
+                          <img width="21" height="26" src="images/g1140.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1310.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1010.webp" alt="team member" />
+                        </div>
+                      </td>
+                      <td>
+                        <span class="box-rec-small blue-bg  ft-wg-600"
+                          >In Progress</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Bouba App</td>
+                      <td>05 Sep 2021</td>
+                      <td>Bouba</td>
+                      <td>$800</td>
+                      <td class="projects-team">
+                        <div class="projects-team-images">
+                          <img width="21" height="26" src="images/g1276.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1384.webp" alt="team member" />
+                        </div>
+                      </td>
+                      <td>
+                        <span class="box-rec-small green-bg  ft-wg-600"
+                          >Completed</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mahmoud Website</td>
+                      <td>22 May 2021</td>
+                      <td>Mahmoud</td>
+                      <td>$600</td>
+                      <td class="projects-team">
+                        <div class="projects-team-images">
+                          <img width="21" height="26" src="images/g1140.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1310.webp" alt="team member" />
+                        </div>
+                      </td>
+                      <td>
+                        <span class="box-rec-small green-bg  ft-wg-600"
+                          >Completed</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Sayed Website</td>
+                      <td>24 May 2021</td>
+                      <td>Sayed</td>
+                      <td>$300</td>
+                      <td class="projects-team">
+                        <div class="projects-team-images">
+                          <img width="21" height="26" src="images/g1010.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1384.webp" alt="team member" />
+                        </div>
+                      </td>
+                      <td>
+                        <span class="box-rec-small red-bg  ft-wg-600"
+                          >Rejected</span
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Arena Application</td>
+                      <td>01 Mar 2021</td>
+                      <td>Arena Company</td>
+                      <td>$2600</td>
+                      <td class="projects-team">
+                        <div class="projects-team-images">
+                          <img width="21" height="26" src="images/g1310.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1140.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1384.webp" alt="team member" />
+                          <img width="21" height="26" src="images/g1010.webp" alt="team member" />
+                        </div>
+                      </td>
+                      <td>
+                        <span class="box-rec-small green-bg  ft-wg-600"
+                          >Completed</span
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

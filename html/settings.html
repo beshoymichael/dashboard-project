@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmouatez Billah Benariba" />
+    <meta name="description" content="Elzero Frontend Challenge Solution : " />
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="../css/all.css" />
+    <!-- main style css -->
+    <link rel="stylesheet" href="../master.css" />
+    <!-- framework & Elements css file -->
+    <link rel="stylesheet" href="../css/framework-elements.css">
+    <!-- non critical css -->
+    <link
+      rel="preload"
+      href="../css/non-critical-css.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="../css/non-critical-css.css" /></noscript>
+<!-- openGraph tags -->
+    <meta
+      property="og:url"
+      content="https://mouatezbenariba.github.io/template-html-css-04/index.html"
+    />
+    <meta property="og:type" content="Dashboard" />
+    <meta
+      property="og:title"
+      content="Elzero Dashboard | HTML CSS Only | Elmouatez Billah Benariba"
+    />
+    <meta
+      property="og:description"
+      content="This is the Solution to Elzero Dashboard Challenge By: Elmouatez Billah Benariba"
+    />
+    <meta property="og:image" content="" />
+    <title>Settings</title>
+  </head>
+  <body class="ft-sz-0-7">
+    <div class="container dp-fx">
+      <aside>
+        <h2 class="special-underline-1">Elzero</h2>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html" class="icon dashboard"><span class="hide">Dashboard</span></a></li>
+            <li style="background-color: var(--color-one)"><a href="settings.html" class="icon settings"><span class="hide">Settings</span></a></li>
+            <li><a href="profile.html" class="icon profile"><span class="hide">Profile</span></a></li>
+            <li><a href="projects.html" class="icon projects"><span class="hide">Projects</span></a></li>
+            <li><a href="courses.html" class="icon courses"><span class="hide">Courses</span></a></li>
+            <li><a href="friends.html" class="icon friends"><span class="hide">Friends</span></a></li>
+            <li><a href="files.html" class="icon files"><span class="hide">Files</span></a></li>
+            <li><a href="plans.html" class="icon plans"><span class="hide">Plans</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <header>
+          <div class="search icon magnifying-glass ft-sz-0-7-bf">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search Keyword"
+              class="ft-sz-0-65"
+            />
+          </div>
+          <div class="status pointer-effect">
+            <i class="fa-regular fa-bell notif-true ft-sz-1"></i>
+            <div class="image-user">
+              <img src="../images/user.webp" alt="user image illustration" width="22" height="22" />
+            </div>
+          </div>
+        </header>
+        <section class="main-content">
+          <h1 class="special-underline-2">Settings</h1>
+          <div class="content">
+            <div class="site-control">
+              <div class="title">
+                <h2>Site Control</h2>
+                <p>Control The Website If There Is Maintenance</p>
+              </div>
+              <div class="site-control-content dp-gd">
+                <div class="control-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="control-title">
+                    <h3 class="margin-0">Website Control</h3>
+                    <p class="margin-0 ft-sz-0-7 ft-wg-600 grey-5-cl">
+                      Open/Close website And Type The Reason
+                    </p>
+                  </div>
+                  <div class="toggle">
+                    <label for="toggle-button-1">
+                      <span class="v-hid">toggle button</span>
+                      <input type="checkbox" aria-label="toggle button" id="toggle-button-1"/>
+                      <i class="fa-solid fa-circle-check"></i>
+                    </label>
+                  </div>
+                </div>
+                <textarea
+                  name="reason"
+                  id="reason"
+                  placeholder="Close Message Content"
+                ></textarea>
+              </div>
+            </div>
+            <div class="general-info">
+              <div class="title">
+                <h2>General Info</h2>
+                <p>General Information About Your Account</p>
+              </div>
+              <div class="general-content">
+                <div class="general-content-field dp-fx fx-dir-col">
+                  <label for="first-name" class="ft-sz-0-75 ft-wg-600 grey-5-cl"
+                    >First Name</label
+                  >
+                  <input type="text" id="first-name" placeholder="First Name" />
+                </div>
+                <div class="general-content-field dp-fx fx-dir-col">
+                  <label for="last-name" class="ft-sz-0-75 ft-wg-600 grey-5-cl"
+                    >Last Name</label
+                  >
+                  <input type="text" id="last-name" placeholder="Last Name" />
+                </div>
+                <div class="general-content-field dp-fx fx-js-bt fx-al-ct">
+                  <div class="dp-fx fx-dir-col">
+                    <label for="email" class="ft-sz-0-75 ft-wg-600 grey-5-cl"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="o@nn.sa"
+                      class="grey-1-bg"
+                    />
+                  </div>
+                  <button class="email-action ft-wg-600 lk-cl def-btn-st transp-bg">
+                    Change
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="security-info">
+              <div class="title">
+                <h2>Security Info</h2>
+                <p>Security Information About Your Account</p>
+              </div>
+              <div class="security-info-content">
+                <div class="sec-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="sec-info-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Password</h3>
+                    <p class="ft-sz-0-7 grey-5-cl margin-0">Last Change On 25/10/2021</p>
+                  </div>
+                  <div class="sec-action">
+                    <button class="def-btn-st blue-bg">Change</button>
+                  </div>
+                </div>
+                <div class="sec-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="sec-info-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Two-Factor Authentication</h3>
+                    <p class="ft-sz-0-7 grey-5-cl margin-0">Enable/Disable The Feature</p>
+                  </div>
+                  <div class="sec-action">
+                    <div class="toggle">
+                      <label>
+                        <input type="checkbox" aria-label="toggle button"/>
+                        <i class="fa-solid fa-circle-check"></i>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="sec-info dp-fx fx-js-bt fx-al-ct">
+                  <div class="sec-info-desc">
+                    <h3 class="ft-sz-0-75 margin-0">Devices</h3>
+                    <p class="ft-sz-0-7 grey-5-cl margin-0">
+                      Check The Login Devices List
+                    </p>
+                  </div>
+                  <div class="sec-action">
+                    <div class="sec-action">
+                      <button class="def-btn-st grey-2-bg">Change</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="social-info">
+              <div class="title">
+                <h2>Social Info</h2>
+                <p>Social Media Information</p>
+              </div>
+              <ul class="social-info-content social-stat-content remove-lt-style">
+                <li class="dp-fx fx-js-bt fx-al-ct grey-1-bg">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-twitter ft-sz-0-9 grey-1-bg grey-5-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-7 ft-wg-600 grey-5-cl">Twitter Username</span>
+                  </div>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct grey-1-bg">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-facebook-f ft-sz-0-9 grey-1-bg grey-5-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-7 ft-wg-600 grey-5-cl">Facebook Username</span>
+                  </div>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct grey-1-bg">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-youtube ft-sz-0-9 grey-1-bg grey-5-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-7 ft-wg-600 grey-5-cl">Youtube username</span>
+                  </div>
+                </li>
+                <li class="dp-fx fx-js-bt fx-al-ct grey-1-bg">
+                  <div class="social-stat-info dp-fx fx-al-ct ps-rl">
+                    <i
+                      class="fa-brands fa-linkedin ft-sz-0-9 grey-1-bg grey-5-cl dp-fx fx-js-ct fx-al-ct"
+                    ></i>
+                    <span class="ft-sz-0-7 ft-wg-600 grey-5-cl">Linkedin username</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="widgets-control">
+              <div class="title">
+                <h2>Widgets Control</h2>
+                <p>Hide/Show Website Widgets</p>
+              </div>
+              <div class="widgets-content">
+                <div class="widgets-content-piece dp-fx fx-al-ct">
+                  <div class="c-checkbox">
+                    <label for="wdg-1">
+                      <span class="desc ft-sz-0-8">Quick Drafts</span>
+                      <input type="checkbox" id="wdg-1" name="wdg-1" />
+                      <span
+                        class="check ft-sz-0-7 white-cl blue-bg-bf fa-solid fa-check"
+                      ></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="widgets-content-piece dp-fx fx-al-ct">
+                  <div class="c-checkbox">
+                    <label for="wdg-2">
+                      <span class="desc ft-sz-0-8">Yearly Targets</span>
+                      <input type="checkbox" id="wdg-2" name="wdg-2" />
+                      <span
+                        class="check ft-sz-0-7 white-cl blue-bg-bf fa-solid fa-check"
+                      ></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="widgets-content-piece dp-fx fx-al-ct">
+                  <div class="c-checkbox">
+                    <label for="wdg-3">
+                      <span class="desc ft-sz-0-8">Tickets Statistics</span>
+                      <input type="checkbox" id="wdg-3" name="wdg-3" />
+
+                      <span
+                        class="check ft-sz-0-7 white-cl blue-bg-bf fa-solid fa-check"
+                      ></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="widgets-content-piece dp-fx fx-al-ct">
+                  <div class="c-checkbox">
+                    <label for="wdg-4">
+                      <span class="desc ft-sz-0-8">Latest News</span>
+                      <input type="checkbox" id="wdg-4" name="wdg-4" />
+                      <span
+                        class="check ft-sz-0-7 white-cl blue-bg-bf fa-solid fa-check"
+                      ></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="widgets-content-piece dp-fx fx-al-ct">
+                  <div class="c-checkbox">
+                    <label for="wdg-5">
+                      <span class="desc ft-sz-0-8">Latest Tasks</span>
+                      <input type="checkbox" id="wdg-5" name="wdg-5" />
+                      <span
+                        class="check ft-sz-0-7 white-cl blue-bg-bf fa-solid fa-check"
+                      ></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="widgets-content-piece dp-fx fx-al-ct">
+                  <div class="c-checkbox">
+                    <label for="wdg-6">
+                      <span class="desc ft-sz-0-8">Top Search Items </span>
+                      <input type="checkbox" id="wdg-6" name="wdg-6" />
+                      <span
+                        class="check ft-sz-0-7 white-cl blue-bg-bf fa-solid fa-check"
+                      ></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="backup-manager">
+              <div class="title">
+                <h2>Backup Manager</h2>
+                <p>Control Backup Date And Location</p>
+              </div>
+              <div class="backup-content">
+                <div class="backup-date">
+                  <div class="backup-date-content">
+                    <div class="backup-content-piece dp-fx fx-al-ct">
+                      <div class="r-checkbox">
+                        <label for="bcp-1">
+                          <span class="desc ft-sz-0-8">Daily</span>
+                          <input type="radio" id="bcp-1" name="bcp-1" />
+                          <span class="check ft-sz-0-7 white-cl blue-bg-bf"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="backup-content-piece dp-fx fx-al-ct">
+                      <div class="r-checkbox">
+                        <label for="bcp-2">
+                          <span class="desc ft-sz-0-8">Weekly</span>
+                          <input type="radio" id="bcp-2" name="bcp-1" />
+                          <span class="check ft-sz-0-7 white-cl blue-bg-bf"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="backup-content-piece dp-fx fx-al-ct">
+                      <div class="r-checkbox">
+                        <label for="bcp-3">
+                          <span class="desc ft-sz-0-8">Monthly</span>
+                          <input type="radio" id="bcp-3" name="bcp-1" />
+                          <span class="check ft-sz-0-7 white-cl blue-bg-bf"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="backup-location dp-fx fx-js-bt">
+                  <label for="backup-1" class="backup-location-info c-checkbox">
+                    <input type="radio" name="backup-1" id="backup-1" />
+                    <div>
+                      <i class="fa-solid fa-server ft-sz-0-8"></i>
+                      <span class="dp-bc ft-sz-0-85">Megaman</span>
+                    </div>
+                  </label>
+                  <label for="backup-2" class="backup-location-info c-checkbox">
+                    <input type="radio" name="backup-1" id="backup-2" />
+                    <div>
+                      <i class="fa-solid fa-server ft-sz-0-8"></i>
+                      <span class="dp-bc ft-sz-0-85">Zero</span>
+                    </div>
+                  </label>
+                  <label class="backup-location-info c-checkbox">
+                    <input type="radio" name="backup-1" id="backup-3" />
+                    <div>
+                      <i class="fa-solid fa-server ft-sz-0-8"></i>
+                      <span class="dp-bc ft-sz-0-85">Sigma</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

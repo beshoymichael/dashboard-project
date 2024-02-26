@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmouatez Billah Benariba" />
+    <meta name="description" content="Elzero Frontend Challenge Solution : Profile Page" />
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="../css/all.css" />
+    <!-- main style css -->
+    <link rel="stylesheet" href="../master.css" />
+    <!-- framework & Elements css file -->
+    <link rel="stylesheet" href="../css/framework-elements.css">
+    <!-- non critical css -->
+    <link
+      rel="preload"
+      href="../css/non-critical-css.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="../css/non-critical-css.css" /></noscript>
+<!-- openGraph tags -->
+    <meta
+      property="og:url"
+      content="https://mouatezbenariba.github.io/template-html-css-04/index.html"
+    />
+    <meta property="og:type" content="Dashboard" />
+    <meta
+      property="og:title"
+      content="Elzero Dashboard | HTML CSS Only | Elmouatez Billah Benariba"
+    />
+    <meta
+      property="og:description"
+      content="This is the Solution to Elzero Dashboard Challenge By: Elmouatez Billah Benariba"
+    />
+    <meta property="og:image" content="" />    <title>Elzero Dashboard : Profile</title>
+  </head>
+  <body class="ft-sz-0-7">
+    <div class="container dp-fx">
+      <aside>
+        <h2 class="special-underline-1">Elzero</h2>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html" class="icon dashboard"><span class="hide">Dashboard</span></a></li>
+            <li><a href="settings.html" class="icon settings"><span class="hide">Settings</span></a></li>
+            <li style="background-color: var(--color-one)"><a href="profile.html" class="icon profile"><span class="hide">Profile</span></a></li>
+            <li><a href="projects.html" class="icon projects"><span class="hide">Projects</span></a></li>
+            <li><a href="courses.html" class="icon courses"><span class="hide">Courses</span></a></li>
+            <li><a href="friends.html" class="icon friends"><span class="hide">Friends</span></a></li>
+            <li><a href="files.html" class="icon files"><span class="hide">Files</span></a></li>
+            <li><a href="plans.html" class="icon plans"><span class="hide">Plans</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <header>
+          <div class="search icon magnifying-glass ft-sz-0-75-bf">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search Keyword"
+              class="ft-sz-0-65"
+            />
+          </div>
+          <div class="status pointer-effect">
+            <i class="fa-regular fa-bell notif-true ft-sz-1"></i>
+            <div class="image-user">
+              <img src="../images/user.webp" alt="user image" width="22" height="22"/>
+            </div>
+          </div>
+        </header>
+        <section class="main-content">
+          <h1 class="special-underline-2">Profile</h1>
+          <div class="content">
+            <div class="main-profile dp-fx fx-al-ct">
+              <div class="user-card dp-fx fx-dir-col fx-js-ct fx-al-ct">
+                <div class="user-card-image">
+                  <img src="../images/user-profile.webp" alt="user profile image" width="102" height="101"/>
+                </div>
+                <span class="dp-bc ft-sz-1 ft-wg-700">Osama Elzero</span>
+                <span class="grey-5-cl ft-sz-0-8 ft-wg-600">Level 19</span>
+                <span></span>
+                <span class="stars">
+                  <i class="fa-solid fa-star orange-cl"></i>
+                  <i class="fa-solid fa-star orange-cl"></i>
+                  <i class="fa-solid fa-star orange-cl"></i>
+                  <i class="fa-solid fa-star orange-cl"></i>
+                  <i class="fa-solid fa-star orange-cl"></i>
+                </span>
+                <span class="ft-sz-0-6 grey-5-cl">450 Rating</span>
+              </div>
+              <div class="user-info dp-fx fx-dir-col">
+                <div class="user-info-card">
+                  <div class="title">
+                    <p>General Information</p>
+                  </div>
+                  <div class="user-desc dp-fx fx-js-bt fx-al-ct fx-al-ct">
+                    <div class="user-desc-info dp-fx fx-js-bt">
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Full Name:
+                        <span class="black-cl ft-sz-0-75">Osama Mohamed</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Gender: <span class="black-cl ft-sz-0-75">Male</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Country: <span class="black-cl ft-sz-0-75">Egypt</span>
+                      </p>
+                    </div>
+                    <div class="user-card-action">
+                      <div class="toggle">
+                        <label for="toggle-button-2">
+                          <span class="v-hid">toggle button</span>
+                          <input type="checkbox"  id="toggle-button-2" aria-label="toggle button"/>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="user-info-card">
+                  <div class="title">
+                    <p>Personal Information</p>
+                  </div>
+                  <div class="user-desc dp-fx fx-js-bt fx-al-ct fx-al-ct">
+                    <div class="user-desc-info dp-fx fx-js-bt">
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Email:
+                        <span class="black-cl ft-sz-0-75">O@nn.sa</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Phone: <span class="black-cl ft-sz-0-75">019123456789</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Date Of Birth: <span class="black-cl ft-sz-0-75">25/10/1982</span>
+                      </p>
+                    </div>
+                    <div class="user-card-action">
+                      <div class="toggle">
+                        <label for="toggle-button-3">
+                          <span class="v-hid">toggle button</span>
+                          <input type="checkbox" id="toggle-button-3" aria-label="toggle button"/>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="user-info-card">
+                  <div class="title">
+                    <p>Job Information</p>
+                  </div>
+                  <div class="user-desc dp-fx fx-js-bt fx-al-ct fx-al-ct">
+                    <div class="user-desc-info dp-fx fx-js-bt">
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Title:
+                        <span class="black-cl ft-sz-0-75">Full Stack Developer</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Programming Language:
+                        <span class="black-cl ft-sz-0-75">Python</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Years Of Experience: <span class="black-cl ft-sz-0-75">15+</span>
+                      </p>
+                    </div>
+                    <div class="user-card-action">
+                      <div class="toggle">
+                        <label for="toggle-button-4">
+                          <span class="v-hid">toggle button</span>
+                          <input type="checkbox" id="toggle-button-4" aria-label="toggle button"/>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="user-info-card">
+                  <div class="title">
+                    <p>Billing Information</p>
+                  </div>
+                  <div class="user-desc dp-fx fx-js-bt fx-al-ct fx-al-ct">
+                    <div class="user-desc-info dp-fx fx-js-bt">
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Payment Method:
+                        <span class="black-cl ft-sz-0-75">Paypal</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Email: <span class="black-cl ft-sz-0-75">Email@website.com</span>
+                      </p>
+                      <p class="ft-sz-0-75 grey-5-cl ft-wg-600">
+                        Subscription: <span class="black-cl ft-sz-0-75">Monthly</span>
+                      </p>
+                    </div>
+                    <div class="user-card-action">
+                      <div class="toggle">
+                        <label for="toggle-button-5">
+                          <span class="v-hid">toggle button</span>
+                          <input type="checkbox" id="toggle-button-5" aria-label="toggle button"/>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my-skills">
+              <div class="title">
+                <h2>My Skills</h2>
+                <p>Complete Skills List</p>
+              </div>
+              <div class="content">
+                <ul class="my-skills remove-lt-style ft-wg-600">
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">HTML</span>
+                    <span class="box-rec-small grey-1-bg">PugJS</span>
+                    <span class="box-rec-small grey-1-bg">HAML</span>
+                  </li>
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">CSS</span>
+                    <span class="box-rec-small grey-1-bg">SASS</span>
+                    <span class="box-rec-small grey-1-bg">Stylus</span>
+                  </li>
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">JavaScript</span>
+                    <span class="box-rec-small grey-1-bg">TypeScript</span>
+                  </li>
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">VueJS</span>
+                    <span class="box-rec-small grey-1-bg">ReactJS</span>
+                  </li>
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">Jest</span>
+                    <span class="box-rec-small grey-1-bg">Jasmine</span>
+                  </li>
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">PHP</span>
+                    <span class="box-rec-small grey-1-bg">Laravel</span>
+                  </li>
+                  <li class="dp-fx">
+                    <span class="box-rec-small grey-1-bg">Python</span>
+                    <span class="box-rec-small grey-1-bg">Django</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="latest-activities">
+              <div class="title">
+                <h2>Latest Activities</h2>
+                <p>Latest Activities Done By The User</p>
+              </div>
+              <div class="activities-content">
+                <div class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="dp-fx fx-al-ct">
+                    <div class="image dp-fx">
+                      <img src="../images/latest-act-01.webp" alt="store illustration" width="48" height="48"/>
+                    </div>
+                    <div>
+                      <h3 class="margin-0 ft-sz-0-9 ft-wg-600">Store</h3>
+                      <p class="margin-0 ft-sz-0-9 ft-wg-600 grey-5-cl">
+                        Bought The Mastering Python Course
+                      </p>
+                    </div>
+                  </div>
+                  <div class="dp-fx fx-dir-col ft-sz-0-9">
+                    <span>18:05</span>
+                    <span class="grey-5-cl ft-wg-600">Yesterday</span>
+                  </div>
+                </div>
+                <div class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="dp-fx fx-al-ct">
+                    <div class="image dp-fx">
+                      <img src="../images/Latest-act-02.webp" alt="blue verification checkmark" width="48" height="48"/>
+                    </div>
+                    <div>
+                      <h3 class="margin-0 ft-sz-0-9 ft-wg-600">Academy</h3>
+                      <p class="margin-0 ft-sz-0-9 ft-wg-600 grey-5-cl">
+                        Got The PHP Certificate
+                      </p>
+                    </div>
+                  </div>
+                  <div class="dp-fx fx-dir-col ft-sz-0-9">
+                    <span>16:05</span>
+                    <span class="grey-5-cl ft-wg-600">Yesterday</span>
+                  </div>
+                </div>
+                <div class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="dp-fx fx-al-ct">
+                    <div class="image dp-fx">
+                      <img src="../images/latest-act-03.webp" alt="white graduation hat" width="48" height="48"/>
+                    </div>
+                    <div>
+                      <h3 class="margin-0 ft-sz-0-9 ft-wg-600">Badges</h3>
+                      <p class="margin-0 ft-sz-0-9 ft-wg-600 grey-5-cl">
+                        Unlocked The 10 Skills Badge
+                      </p>
+                    </div>
+                  </div>
+                  <div class="dp-fx fx-dir-col ft-sz-0-9">
+                    <span>18:05</span>
+                    <span class="grey-5-cl ft-wg-600">Yesterday</span>
+                  </div>
+                </div>
+                <div class="dp-fx fx-js-bt fx-al-ct">
+                  <div class="dp-fx fx-al-ct">
+                    <div class="image dp-fx">
+                      <img src="../images/latest-act-01.webp" alt="store illustration" width="48" height="48"/>
+                    </div>
+                    <div>
+                      <h3 class="margin-0 ft-sz-0-9 ft-wg-600">Store</h3>
+                      <p class="margin-0 ft-sz-0-9 ft-wg-600 grey-5-cl">
+                        Bought The Mastering Python Course
+                      </p>
+                    </div>
+                  </div>
+                  <div class="dp-fx fx-dir-col ft-sz-0-9">
+                    <span>12:05</span>
+                    <span class="grey-5-cl ft-wg-600">Yesterday</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
